@@ -1,0 +1,710 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+/* Estilos base */
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1rem;
+    height: 60px;
+}
+
+nav .imgnav img {
+    width: 150px;
+}
+
+nav .menu-toggle {
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+nav .itens {
+    display: flex;
+    align-items: center;
+}
+
+nav .itens ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav .itens ul li {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav .itens ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .itens .buttonn {
+    margin-left: 20px;
+}
+
+nav .itens .buttonn button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #38B4FC;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-section{
+   background-color: black;
+   height: 700px;
+}
+
+.hero-section .itenshero .Transportadoraiten p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.hero-section .retangulo{
+    width: 96px;
+    height: 35px;
+    flex-shrink: 0;
+    background-color: #38B4FC;
+}
+
+.hero-section .retangulo p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+    position: relative;
+    top: 7px;
+}
+
+.itenshero{
+    display: flex;
+    gap: 20px;
+}
+
+.conteudoprincipal{
+    background-color: black;
+    color: white;
+    height: 700px;
+}
+
+.conteudoprincipal .itensconteudo .itens1 .retangulo{
+    width: 96px;
+    height: 35px;
+    flex-shrink: 0;
+    background-color: #38B4FC;
+}
+
+.conteudoprincipal .itensconteudo .itens1 .retangulo p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+    position: relative;
+    top: 7px;
+}
+
+.conteudoprincipal .itensconteudo .itens1 .Transportadoraiten p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.separar{
+    display: flex;
+    gap: 20px;
+}
+
+.itensconteudo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.itensconteudo .itens1{
+    width: 600px;
+    position: relative;
+    left: 5rem;
+    top: 5rem;
+}
+
+.itensconteudo .itens1 svg{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.itensconteudo .itens1 h1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    width: 339px;
+    height: 173px;
+    flex-shrink: 0;
+}
+
+.itensconteudo .itens1 .sectionhard p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.itensconteudo .itens1 button{
+    border-radius: 10px;
+    background: #38B4FC;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+    width: 270px;
+    height: 45px;
+    flex-shrink: 0;
+    border: none;
+}
+
+main{
+    width: 1356px;
+    height: 2500px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.pageboasvindas .itensboasvindas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pageboasvindas .itensboasvindas .itensprincipalboas .retanguloboas{
+    width: 196px;
+    height: 35px;
+    flex-shrink: 0;
+    background-color: #38B4FC;
+}
+
+.pageboasvindas .itensboasvindas .itensprincipalboas .retanguloboas p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+    position: relative;
+    top: 7px;
+}
+
+.pageboasvindas .itensboasvindas .itensprincipalboas{
+    width: 500px;
+}
+
+.pageboasvindas .itensboasvindas .itensprincipalboas h1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.pageboasvindas .itensboasvindas .itensprincipalboas .pboas,.p1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pageboasvindas .itensboasvindas .itensprincipalboas button{
+    border-radius: 10px;
+    background: #38B4FC;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+    width: 270px;
+    height: 45px;
+    flex-shrink: 0;
+    border: none;
+}
+
+.instagram{
+    text-align: center;
+    margin-top: 250px;
+}
+
+.instagram a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    bottom: 14rem;
+}
+
+.serviçes{
+    background-color: #ffffff;
+    height: 866px;
+    flex-shrink: 0;
+}
+
+.serviçes .retanguloserviçes{
+    width: 270px;
+    height: 45px;
+    background-color: #38B4FC;
+    margin: 0 auto;
+    border-radius: 10px;
+   position: relative;
+   top: 4rem;
+}
+
+.serviçes .retanguloserviçes p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+.serviçes h1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+    position: relative;
+    top: 10rem;
+}
+
+.serviçes span{
+    color: #38B4FC;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+    top: 12rem;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.card p {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.retangulocotação{
+    width: 1109px;
+    height: 106px;
+    flex-shrink: 0;
+    background-color: #38B4FC;
+    position: relative;
+    margin: 0 auto;
+    bottom: 2.5rem;
+}
+
+.retangulocotação .separeteitens{
+    display: flex;
+    justify-content: space-around;
+}
+
+.retangulocotação .h1text h1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 19px;
+}
+
+.retangulocotação .botaos button{
+    width: 270px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #000;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 20px;
+    border: none;
+}
+
+.retangulocotação .botaos button a{
+    text-decoration: none;
+    color: white;
+}
+
+.retangulocotação .botaos button a:hover{
+    color: #38B4FC;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    justify-content: center;
+    position: relative;
+    left: 4rem;
+    bottom: 1rem;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 45%;
+}
+
+.item img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.item span {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.item span a{
+    text-decoration: none;
+    color: white;
+}
+
+.item span a:hover{
+    color: #38B4FC;
+}
+
+.item .modificado{
+    width: 400px;
+}
+
+.retangulofinal{
+    width: 100%;
+    height: 79px;
+    flex-shrink: 0;
+    background-color: #38B4FC;
+}
+
+.retangulofinal p{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0 auto;
+    position: relative;
+    top: 1.5rem;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    nav .menu-toggle {
+        display: block;
+    }
+
+    nav .itens {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        z-index: 10;
+        padding: 1rem 0;
+    }
+
+    nav .itens ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav .itens ul li {
+        font-size: 16px;
+    }
+
+    nav .itens .buttonn {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    nav .itens .buttonn button {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .conteudoprincipal .itensconteudo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudoprincipal .itensconteudo .itens1{
+        width: 500px;
+    }
+
+    .conteudoprincipal .itensconteudo .separar{
+        text-align: center;
+    }
+
+    .conteudoprincipal .itensconteudo h1{
+        text-align: center;
+    }
+
+    .conteudoprincipal .itensconteudo .sectionhard p{
+        text-align: center;
+        width: 350px;
+    }
+
+    .conteudoprincipal .itensconteudo .sectionhard button{
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        left: 2rem;
+    }
+
+    .conteudoprincipal .itensconteudo .itens2 .img-caminhao{
+        margin-top: 150px;
+        
+    }
+
+    .conteudoprincipal .itensconteudo .itens2 .img-caminhao img{
+        height: 400px;
+    }
+
+    main{
+        position: relative;
+        right: 20rem;
+        margin-top: 400px;
+    }
+
+    main .pageboasvindas .itensboasvindas{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .pageboasvindas .itensboasvindas .imgboas{
+        text-align: center;
+        position: relative;
+        right: 3.5rem;
+    }
+
+    main .pageboasvindas .itensboasvindas .imgboas img{
+        height: 350px;
+    }
+
+    main .pageboasvindas .itensboasvindas .itensprincipalboas{
+        width: 400px;
+        text-align: left;
+        margin-top: 30px;
+        position: relative;
+        right: 2rem;
+    }
+
+    .instagram .imginsta {
+        position: relative;
+        right: 2rem;
+    }
+    
+    .instagram .imginsta img {
+        height: 200px; /* Tamanho da imagem principal */
+    }
+    
+    .instagram .imginsta a img {
+        height: 40px; /* Ajusta o tamanho da imagem dentro do link */
+        width: auto;  /* Mantém a proporção da imagem */
+        position: relative;
+        top: 8rem;
+    }
+
+    .serviçes{
+        background-color: #ffffff;
+        height: 866px;
+        width: 100%;
+    }
+
+    .serviçes .retanguloserviçes{
+        text-align: center;
+        position: relative;
+        right: 2rem;
+    }
+
+    .serviçes h1{
+        font-size: 20px;
+        position: relative;
+        right: 1.5rem;
+    }
+
+    .serviçes span{
+        font-size: 20px;
+    }
+
+    .carousel-container{
+        position: relative;
+        right: 2rem;
+    }
+
+    .carousel-container .carousel .card{
+        width: 100px;
+    }
+
+    .carousel-container .carousel .card img{
+        height: 200px;
+    }
+
+    .retangulocotação{
+        width: 451px;
+        position: relative;
+        right: 2.5rem;
+        flex-direction: column;
+        align-items: center;
+        height: 250px;
+    }
+
+    .retangulocotação .separeteitens{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .itensfooter .container .container {
+        position: relative; /* Mantenha se necessário */
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .retangulofinal{
+        width: 479px;
+        height: 79px;
+        position: relative;
+    }
+
+    .retangulofinal p{
+        color: white;
+    }
+
+}
