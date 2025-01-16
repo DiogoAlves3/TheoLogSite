@@ -452,7 +452,7 @@ main{
     color: #38B4FC;
 }
 
-.itensfooter{
+.itensdofooter{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -564,7 +564,6 @@ body{
 
     .conteudoprincipal .itensconteudo{
         flex-direction: column;
-        align-items: center;
     }
 
     .conteudoprincipal .itensconteudo .itens1 .separar{
@@ -575,19 +574,96 @@ body{
         width: 425px;
     }
 
-    .conteudoprincipal .itensconteudo .sectionhard,h1{
+    .conteudoprincipal .itensconteudo .sectionhard{
         width: 425px;
+        position: relative;
+        right: 2rem;
     }
 
-    .conteudoprincipal .itensconteudo .sectionhard p{
+    .conteudoprincipal .itensconteudo .sectionhard h1{
         color: #FFF;
+        text-align: center;
         font-family: Poppins;
-        font-size: 13px;
+        font-size: 40px;
         font-style: normal;
         font-weight: 900;
         line-height: normal;
-        text-transform: capitalize;
-        width: 415px;
+        position: relative;
+        right: 1rem;
+    }
+
+    .conteudoprincipal .itensconteudo .sectionhard p{
+        width: 400px;
+        text-align: center;
+        position: relative;
+        right: 2rem;
+    }
+
+    .conteudoprincipal .itensconteudo .itens2 img{
+        height: 350px;
+        margin-top: 250px;
+    }
+
+    .pageboasvindas .itensboasvindas{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 350px;
+    }
+
+    .pageboasvindas .itensboasvindas .imgboas img{
+        height: 350px;
+    }
+
+    .pageboasvindas .itensboasvindas .itensprincipalboas {
+        margin-left: 46px;
+        width: 425px;
+    }
+
+    .instagram .imginsta img{
+        width: 425px;
+        height: 200px;
+        position: relative;
+        bottom: 5rem;
+    }
+
+    .instagram .imginsta a img{
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: 3rem;
+    }
+
+    .serviçes h1{
+        font-size: 25px;
+    }
+
+    .serviçes h1 span{
+        font-size: 25px;
+    }
+
+    .retangulocotação{
+        width: 425px;
+        flex-direction: column;
+        align-items: center;
+        height: 250px;
+    }
+
+    .retangulocotação .separeteitens{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .retangulocotação .separeteitens .botaos{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .itensdofooter{
+        flex-direction: column;
+        margin-top: 100px;
+        width: 425px;
+        position: relative;
+        right: 10rem;
     }
 
 }
