@@ -452,7 +452,7 @@ main{
     color: #38B4FC;
 }
 
-.container {
+.itensfooter{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -520,7 +520,15 @@ main{
     text-align: center;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 @media (max-width: 480px) {
+
+    body{
+        width: 400px;
+    }
     nav .menu-toggle {
         display: block;
     }
@@ -563,11 +571,22 @@ main{
     }
 
     .conteudoprincipal .itensconteudo .itens1{
-        width: 500px;
+        width: 400px;
+        position: relative;
+        right: 2rem;
     }
 
-    .conteudoprincipal .itensconteudo .separar{
+    .conteudoprincipal .itensconteudo .sectionhard{
+        width: 400px;
+        position: relative;
+        right: 2rem;
+        max-width: 400px;
+    }
+
+    .conteudoprincipal .itensconteudo .itens1 .separar{
         text-align: center;
+        width: 400px;
+        max-width: 400px;
     }
 
     .conteudoprincipal .itensconteudo h1{
@@ -588,49 +607,48 @@ main{
 
     .conteudoprincipal .itensconteudo .itens2 .img-caminhao{
         margin-top: 150px;
-        
     }
 
     .conteudoprincipal .itensconteudo .itens2 .img-caminhao img{
         height: 400px;
     }
 
-    main{
-        position: relative;
-        right: 20rem;
-        margin-top: 400px;
-    }
-
-    main .pageboasvindas .itensboasvindas{
+    .pageboasvindas .itensboasvindas{
         flex-direction: column;
         align-items: center;
+        margin-left: 40px;
     }
 
-    main .pageboasvindas .itensboasvindas .imgboas{
+    .pageboasvindas .itensboasvindas .imgboas{
         text-align: center;
         position: relative;
-        right: 3.5rem;
     }
 
-    main .pageboasvindas .itensboasvindas .imgboas img{
+    .pageboasvindas .itensboasvindas .imgboas img{
         height: 350px;
+        margin-top: 350px;
     }
 
-    main .pageboasvindas .itensboasvindas .itensprincipalboas{
+    .pageboasvindas .itensboasvindas .itensprincipalboas{
         width: 400px;
         text-align: left;
         margin-top: 30px;
         position: relative;
-        right: 2rem;
     }
 
     .instagram .imginsta {
         position: relative;
-        right: 2rem;
+        left: 1.5rem;
+        text-align: center;
+        margin: 0 auto;
+        
     }
     
     .instagram .imginsta img {
-        height: 200px; /* Tamanho da imagem principal */
+        height: 200px; 
+        width: 350px;
+        text-align: center;
+        margin: 0 auto;
     }
     
     .instagram .imginsta a img {
@@ -643,19 +661,20 @@ main{
     .serviçes{
         background-color: #ffffff;
         height: 866px;
-        width: 100%;
+        width: 479px;
     }
 
     .serviçes .retanguloserviçes{
         text-align: center;
         position: relative;
-        right: 2rem;
+        justify-content: center;
     }
 
     .serviçes h1{
         font-size: 20px;
         position: relative;
-        right: 1.5rem;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .serviçes span{
@@ -664,7 +683,7 @@ main{
 
     .carousel-container{
         position: relative;
-        right: 2rem;
+        margin: 0 auto;
     }
 
     .carousel-container .carousel .card{
@@ -676,9 +695,8 @@ main{
     }
 
     .retangulocotação{
-        width: 451px;
+        width: 479px;
         position: relative;
-        right: 2.5rem;
         flex-direction: column;
         align-items: center;
         height: 250px;
@@ -690,11 +708,24 @@ main{
         text-align: center;
     }
 
-    .itensfooter .container .container {
-        position: relative; /* Mantenha se necessário */
-        width: 100%;
+    .itensfooter{
         flex-direction: column;
         align-items: center;
+        width: 479px;
+        justify-content: center;
+    }
+
+    .itensfooter .containerr{
+        flex-direction: column;
+        align-items: center;
+        max-width: 479px;
+        width: 100%;
+    }
+
+    .itensfooter .item{
+        position: relative;
+        right: 3rem;
+        width: 479px;
     }
 
     .retangulofinal{
@@ -705,6 +736,10 @@ main{
 
     .retangulofinal p{
         color: white;
+    }
+
+    body{
+        overflow-x: hidden;
     }
 
 }
