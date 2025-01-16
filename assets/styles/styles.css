@@ -529,6 +529,7 @@ body{
     body{
         width: 400px;
     }
+
     nav .menu-toggle {
         display: block;
     }
@@ -739,6 +740,9 @@ body{
     }
 
     body{
+        overflow-x: hidden;
+        transform: scale(1.5); 
+        transform-origin: 0 0;
         overflow-x: hidden;
     }
 
