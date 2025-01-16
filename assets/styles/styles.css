@@ -739,6 +739,11 @@ body{
         color: white;
     }
 
+    .modificaçãogeral{
+        position: relative;
+        left: 2rem;
+    }
+
     body{
         overflow-x: hidden;
     }
