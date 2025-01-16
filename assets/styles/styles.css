@@ -684,7 +684,7 @@ body{
         margin: 0 auto;
     }
 
-    .itensdofooter{
+    .itensdofooter,.separaritensdofooter{
         flex-direction: column;
         gap: 20px;
         width: 265px;
