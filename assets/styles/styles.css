@@ -452,7 +452,7 @@ main{
     color: #38B4FC;
 }
 
-.itensdofooter{
+.itensdofooter .separaritensdofooter{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -567,15 +567,22 @@ body{
     }
 
     .conteudoprincipal .itensconteudo .itens1 .separar{
-        width: 425px;
+        width: 200px;
+        position: relative;
+        right: 1.5rem;
     }
 
     .conteudoprincipal .itensconteudo .itens1{
-        width: 425px;
+        width: 200px;
+    }
+    
+    .conteudoprincipal .itensconteudo .sectionhard button{
+        position: relative;
+        left: 1rem;
     }
 
     .conteudoprincipal .itensconteudo .sectionhard{
-        width: 425px;
+        width: 200px;
         position: relative;
         right: 2rem;
     }
@@ -593,7 +600,7 @@ body{
     }
 
     .conteudoprincipal .itensconteudo .sectionhard p{
-        width: 400px;
+        width: 380px;
         text-align: center;
         position: relative;
         right: 2rem;
@@ -601,7 +608,7 @@ body{
 
     .conteudoprincipal .itensconteudo .itens2 img{
         height: 350px;
-        margin-top: 250px;
+        margin-top: 200px;
     }
 
     .pageboasvindas .itensboasvindas{
@@ -616,14 +623,26 @@ body{
 
     .pageboasvindas .itensboasvindas .itensprincipalboas {
         margin-left: 46px;
-        width: 425px;
+        width: 200px;
+        position: relative;
+        right: 4.6rem;
+    }
+
+    .pageboasvindas .itensboasvindas .itensprincipalboas h1{
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .pageboasvindas .itensboasvindas .itensprincipalboas .p1{
+        width: 350px;
     }
 
     .instagram .imginsta img{
-        width: 425px;
+        width: 400px;
         height: 200px;
         position: relative;
         bottom: 5rem;
+        right: 0.3rem;
     }
 
     .instagram .imginsta a img{
@@ -631,6 +650,12 @@ body{
         width: 50px;
         position: relative;
         top: 3rem;
+    }
+
+    .serviçes{
+        width: 410px;
+        position: relative;
+        left: 0.4rem;
     }
 
     .serviçes h1{
@@ -642,11 +667,12 @@ body{
     }
 
     .retangulocotação{
-        width: 425px;
+        width: 412px;
         flex-direction: column;
         align-items: center;
         height: 250px;
-    }
+        position: relative;
+}
 
     .retangulocotação .separeteitens{
         flex-direction: column;
@@ -660,10 +686,18 @@ body{
 
     .itensdofooter{
         flex-direction: column;
-        margin-top: 100px;
-        width: 425px;
+        gap: 20px;
+        width: 265px;
+    }
+
+    .itensdofooter .separaritensdofooter{
         position: relative;
-        right: 10rem;
+        right: 6rem;
+        width: 265px;
+    }
+
+    body{
+        overflow-x: hidden;
     }
 
 }
