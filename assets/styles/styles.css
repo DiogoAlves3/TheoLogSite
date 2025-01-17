@@ -55,6 +55,10 @@ nav .itens ul li a {
     text-decoration: none;
 }
 
+nav .itens ul li a:hover{
+    color: #38B4FC;
+}
+
 nav .itens .buttonn {
     margin-left: 20px;
 }
